@@ -10,8 +10,10 @@ idx_splitted = mat2cell(idx,1,shapeNum);
 
 numPictures = size(idx_splitted);
 
+freq_mat = cell(1, numPictures);
+
 for i = 1:numPictures
     segment_vector = idx_splitted{i};
     a = unique(segment_vector);
-    out = [a,histc(segment_vector(:),a)];
+    freq_mat{i} = [a,histc(segment_vector(:),a)];
 end
