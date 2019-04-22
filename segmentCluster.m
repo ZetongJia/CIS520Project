@@ -6,7 +6,7 @@ k = 30;
 idx = kmeans(featureMatrix,k,'Replicates',5);
 
 
-idx_splitted = mat2cell(idx,1,shapeNum);
+idx_splitted = num2cell(idx,1);
 
 numPictures = size(idx_splitted);
 
