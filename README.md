@@ -1,6 +1,6 @@
 # Classification of Tiny Images with LDA Model
 
-To tackle the problem of tiny image classification or image classification in general, convolutional neural network is usually used for the task. In this project, we propose an alternative approach by using the Latent Dirichlet Allocation model to classify images by analyzing the topics contained within each image and treating clusters of image segments as vocabulary. We are able to achieve a classification accuracy of $36\%$, which is significantly higher than the accuracy of using a pre-trained neural network for feature extraction and applying the same SVM classification algorithm.
+To tackle the problem of tiny image classification or image classification in general, convolutional neural network is usually used for the task. In this project, we propose an alternative approach by using the Latent Dirichlet Allocation model to classify images by analyzing the topics contained within each image and treating clusters of image segments as vocabulary. We are able to achieve a classification accuracy of 36%, which is significantly higher than the accuracy of using a pre-trained neural network for feature extraction and applying the same SVM classification algorithm.
 
 ##  Training 
 ### Set Up 
