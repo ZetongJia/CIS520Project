@@ -15,7 +15,7 @@ To tackle the problem of tiny image classification or image classification in ge
 1.  Run image2Patches.m.
 
 ### CNN feature extraction 
-1.  Run ShapeFeatureExtractor3.py. (This file is for batch 3. To use for other batches, simple change the file path).
+1.  Run ShapeFeatureExtractor3.py. (This file is for batch 3. To use for other batches, simply change the file path).
 
 ### Cluster Words
 1. Load output feature file. 
