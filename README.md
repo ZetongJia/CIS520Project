@@ -29,4 +29,4 @@ To tackle the problem of tiny image classification or image classification in ge
 2. Run category_accuracy.m to get accuracy for each category. 
 
 ##  Testing
-1. 
+1. Run patchFitToCluster.m
